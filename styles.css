@@ -46,12 +46,6 @@ a {
 	background-color: darkslategrey;
 }
 
-@media (min-width: 992px) {
-	.bg-dark{
-	background-color:transparent!important;
-	}	
-}
-
 .navg a{
 	color: #fcfafa!important;
 	font-family: 'Montserrat';
@@ -90,23 +84,6 @@ a {
 	margin: 0 0 0 5px,
 }
 
-@media (min-width: 420px) {
-	.text-header h3 {
-		font-size: 20px;
-	}
-	h2 {
-		background-color: black;
-		text-align: center;
-		border-radius: 10px;
-	}
-  }
-
-  @media (min-width: 760px) {
-	.text-header h3 {
-		font-size: 12px;
-	}
-  }
-
 .btn-dev {
 	padding: 7px 12px;
 	color: #fff;
@@ -124,3 +101,42 @@ a {
 .card-footer {
     margin: 3px 3px;
 }
+
+
+/*=======================================================================================================
+=                                        Medias queries                                                 =
+========================================================================================================*/
+/* col-xs */
+
+@media (min-width: 420px) {
+	.text-header h3 {
+		font-size: 20px;
+	}
+	h2 {
+		background-color: black;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	.logo {
+		width: 80px;
+		height: 90px ;
+	}
+
+	.nav-item {
+		font-size: 10px;
+    }
+  }
+
+  @media (min-width: 760px) {
+	.text-header h3 {
+		font-size: 12px;
+	}
+  }
+
+  @media (min-width: 992px) {
+	.bg-dark{
+	background-color:transparent!important;
+	}	
+}
+
