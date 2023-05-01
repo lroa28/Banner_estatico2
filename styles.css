@@ -19,7 +19,7 @@ a {
 /* https://www.youtube.com/watch?v=amN8uZPwYj4*/
 .header {
 	width: 100%;
-	min-height: 100vh;
+	height: 100vh;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	background-image: url(./img/desarrollo-img.avif);
