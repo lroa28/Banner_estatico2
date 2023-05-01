@@ -36,14 +36,19 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: linear-gradient(rgba(255,255,255,0), rgba(20, 22, 24, 0.73));
+	background-image: linear-gradient(rgba(255,255,255,0), rgba(58, 64, 70, 0.158));
 }*/
 
 .bg-dark{
 	position: fixed;
-	z-index: 20;
+	z-index: 200;
 	width: 100%;
 	background-color: darkslategrey;
+}
+
+.logo {
+	width: 100px;
+	height: 100px ;
 }
 
 .navg a{
@@ -58,15 +63,15 @@ a {
 
 .navg a:hover{
     background-color: rgba(170, 162, 162, 0.508);
-    text-decoration:underline ;
     font-size: 30px;
     transition: all 1s ease-out;
+	font-style: italic;
+	border-radius: 5px;
 }
 
 .text-header {
 	min-height: 90vh;
-	color: #fff;
-	font-family: 'Montserrat';
+	color: #fff;	
 }
 
 .text-header h2 {
@@ -74,27 +79,30 @@ a {
 	background-color: black;
 	text-align: center;
 	border-radius: 10px;
+	padding: 6px;
 }
 
 .text-header span {
 	letter-spacing: 5px;
-	font-size:1.3em;
+	font-size: 1.3em;
 	font-family: 'Anton';
 	font-style: italic;
 	margin: 0 0 0 5px,
 }
 
-.btn-dev {
+.btn-acercademi {
+	font-family: 'Montserrat';
 	padding: 7px 12px;
 	color: #fff;
-	background-color: black;
+	background-color:rgba(128, 128, 128, 0.761);
 	font-size: 1.5em;
 	font-weight: bold;
 }
 
-.btn-dev:hover {
+.btn-acercademi:hover {
 	color: #fff;
 	background-color: red;
+	font-style: italic;
 }
 
 /* ------------------------- *//* Footer *//* ------------------------- */
@@ -108,24 +116,41 @@ a {
 ========================================================================================================*/
 /* col-xs */
 
-@media (min-width: 420px) {
-	.text-header h3 {
-		font-size: 20px;
+@media (max-width: 420px) {
+	body {
+		width: 100vw;
+		height: 90vh;
 	}
-	h2 {
-		background-color: black;
-		text-align: center;
-		border-radius: 10px;
+	.text-header h2 {
+		font-size: 2em;
 	}
 
 	.logo {
 		width: 80px;
-		height: 90px ;
+		height: 80px;
 	}
 
-	.nav-item {
-		font-size: 10px;
-    }
+	.navg a{
+		font-size: 18px;
+	}
+	.navg a:hover{
+		background-color: rgba(170, 162, 162, 0.508);
+		font-style: bold;
+		font-size: 15px;
+		border-radius: 2px;
+	}
+
+	.text-header span {
+		font-size: 1em;
+	}
+
+	.btn-acercademi {
+		font-size: 1.3em;
+	}
+}
+
+@media (min-width: 420px) {
+
   }
 
   @media (min-width: 760px) {
