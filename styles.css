@@ -58,12 +58,11 @@ a {
 	padding: 10px 15px;
 	text-align: center;
 	text-transform: uppercase; 
-	background-color: rgba(240, 248, 255, 0.587);
-    border-radius: 1px ;
+	color: #fff;	
 }
 
 .navg a:hover{
-    background-color: black;
+    background-color: rgb(196, 190, 190);
     transition: all 1.5s ease-out;
 	border-radius: 5px;
 	color: #fff;	
