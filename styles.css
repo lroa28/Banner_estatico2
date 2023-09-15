@@ -6,8 +6,8 @@
 
 body {
 	width: 100%;
-	/*height: 100vw;*/
-	/*overflow-y: hidden;*/
+	/* height: 99%; */
+	/* overflow-y: hidden; */
 	overflow-x: hidden;
 }
 
@@ -22,13 +22,13 @@ a {
 	height: 100vh;
 	overflow-y: hidden;
 	overflow-x: hidden;
-	background-image: url(./img/fondo.jpg);
+	background-image: url(./img/desarrollo-img.avif);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 	background-size: cover;
 }
 
-/*.header:before {
+/* .header:before {
 	content:'' ;
 	width: 100%;
 	min-height:100vh;
@@ -36,7 +36,7 @@ a {
 	top: 0;
 	left: 0;
 	background-image: linear-gradient(rgba(255,255,255,0), rgba(58, 64, 70, 0.158));
-}*/
+} */
 
 .bg-dark{
 	position: fixed;
@@ -53,7 +53,6 @@ a {
 .navg a{
 	color:black;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-weight: bolder!important;
 	font-size: 22px!important;
 	padding: 10px 15px;
 	text-align: center;
@@ -62,7 +61,7 @@ a {
 }
 
 .navg a:hover{
-    background-color: rgb(196, 190, 190);
+    background-color: rgba(0, 0, 0, 0.779);
     transition: all 1.5s ease-out;
 	border-radius: 5px;
 	color: #fff;	
@@ -75,20 +74,20 @@ a {
 }
 
 /* --- Desarrollo Web --- */
-.text-header h2 {
-	font-family: 'Montserrat';
-	background-color: rgba(0, 0, 0, 0.602);
+.text-header h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: rgba(0, 0, 0, 0.779);
 	text-align: center;
 	border-radius: 10px;
 	padding: 6px;
-	font-size: 3.5em;
+	font-size: 5rem;
 	font-style: bold;
 }
 
 /* --- Herramientas --- */
 .text-header span {
 	letter-spacing: 5px;
-	font-size: 1.3em;
+	font-size: 5rem;
 	/* font-family: 'Anton'; */
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-style: italic;
@@ -100,7 +99,7 @@ a {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	padding: 7px 12px;
 	color: #fff;
-	background-color:rgba(35, 27, 27, 0.761);
+	background-color: rgba(0, 0, 0, 0.916);
 	font-size: 1.5em;
 	/* font-weight: bold; */
 }
@@ -144,7 +143,7 @@ body {
 }
 
 /* --- Desarrollo Web --- */
-.text-header h2 {
+.text-header h1 {
 	font-size: 2em;
 	width:fit-content;
 	display: flex;
@@ -153,7 +152,7 @@ body {
 }
 
 /* --- Herramientas --- */
-.text-header h6 {
+.text-header h3 {
 	font-size: 0.8em;
 	width:fit-content;
 	display: flex;
@@ -180,7 +179,7 @@ body {
 	height: 90vh;
 }
 
-.text-header h2 {
+.text-header h1 {
 	font-size: 2.5em;
 	width:fit-content;
 	display: flex;
@@ -188,7 +187,7 @@ body {
 	align-items: center;
 }
 
-.text-header h6 {
+.text-header h3 {
 	font-size: 1em;
 	width:fit-content;
 	display: flex;
@@ -226,7 +225,7 @@ body {
 	height: 100vh;
 }
 
-.text-header h2 {
+.text-header h1 {
 	font-size: 3.5em;
 	width:fit-content;
 	display: flex;
@@ -234,7 +233,7 @@ body {
 	align-items: center;
 }
 
-.text-header h6 {
+.text-header h3 {
 	font-size: 1.2em;
 	width:fit-content;
 	display: flex;
@@ -286,7 +285,7 @@ body {
 }
 	
 /* --- Desarrollo Web --- */
-.text-header h2 {
+.text-header h1 {
 	font-size: 3.5em;
 	width:fit-content;
 	display: flex;
@@ -295,7 +294,7 @@ body {
 }
 	
 /* --- Herramientas --- */
-.text-header h6 {
+.text-header h3 {
 	font-size: 1.2em;
 	width:fit-content;
 	display: flex;
