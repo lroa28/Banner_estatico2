@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <!-- Fontawesome Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Banner Estático Curriculum</title>
+    <title>Banner Estático II Curriculum</title>
   </head>
   
 <!-------------------------------------------//
@@ -21,14 +21,14 @@
   <body>
   <header class="header">
     <div class="bg-dark">
-        <div class="container-fluid">
+      <div class="container-fluid">
 
           <!-- NavBar -->
           <nav class="navbar navbar-expand-lg navbar-dark">
             <!-- Logo -->
               <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                  <img src="./img/logo.png" class="logo img-fluid rounded-circle" style="color:black; width: 60px; height: 60px" alt="logo">
+                  <img src="./img/logo.png" class="logo img-fluid " style="color:black; width: 60px; height: 50px" alt="logo">
                 </a>
                 <!-- Navbar-toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navg navbar-nav w-100 justify-content-end">
-                    <a class="nav-item nav-link" href="#">Inicio</a>
-                    <a class="nav-item nav-link" aria-current="page" href="#">Estudios</a>
-                    <a class="nav-item nav-link" href="#">Proyectos</a>
-                    <a class="nav-item nav-link" href="#">Contacto</a>
+                    <ul class="navbar-nav align-items-end px-2">
+                      <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house-user"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fa-brands fa-github"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-envelope"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-book-bookmark"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>           
                   </div>
                 </div>
                 <!-- div entre marca y lista del navbar --> 
@@ -50,7 +54,7 @@
           </nav>
 
 
-          </div>
+      </div>
     </div>
 
     <!-- Titulos de servicios -->
@@ -64,25 +68,25 @@
             <div class="row">
               <div class="col">
                 <div class="d-flex justify-content-center align-items-center p-4">   
-                  <h1>Desarrollo Web</h1>
+                  <h1 class="">Desarrollo Web <i class="fa-solid fa-code"></i></h1>
                 </div> 
               </div>
             </div>
-            
 
           </div>
           <div class="col-md-4 ms-auto">
               <!-- /* --- Herramientas --- */ -->
               <div class="d-flex justify-content-center align-items-center p-5">
-                <h3><span class="text-dark badge bg-light bg-gradient p-3"><i class="fa-solid fa-screwdriver-wrench"></i> HTML <br> CSS <br> Bootstrap</span></h3>
+                <h2><span class="text-dark badge cuadrado p-3">HTML <br><br> CSS <br><br> Bootstrap</span></h32>
               </div>
   
               <!-- /* --- Boton Acerca de mi --- */ -->
               <div class="d-flex justify-content-center align-items-center">
-                <a href="" class="btn btn-outline-secondary btn-acercademi cuadrado"><i class="fa-solid fa-plus"></i> Acerca de mí</a>
+                <a href="" class="btn btn-acercademi cuadrado"><i class="fa-solid fa-plus"></i> Acerca de mí</a>
               </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-3 ms-md-auto"></div>
           <div class="col-md-3 ms-md-auto"></div>
@@ -91,24 +95,26 @@
           <div class="col-auto me-auto"></div>
           <div class="col-auto"></div>
         </div>
+
       </div>
-              
-        
     </div>
-  </div>
 
 <!-------------------------------------------//
 // ----------------FOOTER--------------------//
 // ------------------------------------------->
-<div class="container-fluid">
+<div class="footer">
+
+  <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <hr><p class="footer__p text-center bg-secondary text-dark bg-opacity-25">Developer Overflow X - Lucrecia Roa</p>    </div>
+      <hr><p class="footer__p text-center text-white">Developer by 'Compañia X'</p>    </div>
   </div>
+  </div>
+
 </div>
 <!-- Fin FOOTER -->
-
 </header>
+
 <!-- Fin HEADER -->
 
     <!-- Optional JavaScript; choose one of the two! -->
